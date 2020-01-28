@@ -26,3 +26,6 @@ https://www.springboottutorial.com/creating-rest-service-with-spring-boot
 > Service: it's where the business rules are applied. Basically what goes where, how and why.
 
 > DAO: the raw connection to the data source (more often than not databases).
+
+- Annotations:
+> There are just way too many. Check [the Spring Boot documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/) and all that fun stuff you surely can find online.
