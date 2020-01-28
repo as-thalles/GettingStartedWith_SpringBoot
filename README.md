@@ -8,7 +8,7 @@ https://www.springboottutorial.com/creating-rest-service-with-spring-boot
 
 ## TL;DR:
 - What is it?
-> Hard to explain. But it's a tool that offers a fast way to build applications, focusing on managing the bulk of infrastrucutre for you so that you can focus more on your application.
+> Hard to explain. But it's a tool that offers a fast way to build applications, managing the bulk of infrastrucutre, allowing you to focus more on your application.
 
 > In this tutorial it is built a basic RESTful Service using Spring Boot. RESTful Services are services based on the REST (REpresentational State Transfer) architecture.
 
@@ -19,8 +19,10 @@ https://www.springboottutorial.com/creating-rest-service-with-spring-boot
 >> Web, Actuator, DevTools, H2, Lombok
 
 - Basic Structure:
-> Controller: TBD
-
-> Service: TBD
-
 > Model: the modeling of the classes/tables in your database. It's the coded representation of persisted data.
+
+> Controller: the endpoints (i.e. the URL and mappings of the request). It's how you'll make the requests to the server.
+
+> Service: it's where the business rules are applied. Basically what goes where, how and why.
+
+> DAO: the raw connection to the data source (more often than not databases).
